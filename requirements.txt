@@ -171,7 +171,7 @@ twisted==18.9.0
 typing==3.6.6
 typing-extensions==3.7.4
 tzlocal==1.5.1
-urllib3==1.24.1
+urllib3==1.24.2
 virtualenv==16.4.3
 w3lib==1.19.0
 wcwidth==0.1.7
