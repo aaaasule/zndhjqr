@@ -1,0 +1,28 @@
+slots:
+  project:
+    type: text
+
+
+
+intents:
+  - task_kouling_jiayou
+  - task_jiayou1
+
+
+entities:
+  - main
+
+templates:
+  utter_kouling_jiayou:
+    - "这里是xxx，请问需要什么帮助？"
+  utter_taskjiayou1:
+    - "好的，请问您车停在哪里了？"
+  utter_default:
+    - "我还比较小"
+
+
+
+actions:
+  - utter_kouling_jiayou
+  - utter_taskjiayou1
+  - utter_default

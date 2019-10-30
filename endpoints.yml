@@ -1,0 +1,8 @@
+#nlu:
+#  url: "http://192.168.50.74:5000"
+#action_endpoint:
+#  url: "http://192.168.50.74:5003/webhook"
+nlu:
+  url: "http://127.0.0.1:5000"
+action_endpoint:
+  url: "http://127.0.0.1:5003/webhook"

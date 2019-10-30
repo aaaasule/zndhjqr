@@ -1,0 +1,2 @@
+model_checkpoint_path: "E:\\storehouse\\zndhjqr_nlp\\now_models/nlu\\task\\task_20190528150014\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "E:\\storehouse\\zndhjqr_nlp\\now_models/nlu\\task\\task_20190528150014\\intent_classifier_tensorflow_embedding.ckpt"

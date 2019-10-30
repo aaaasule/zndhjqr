@@ -1,0 +1,254 @@
+slots:
+  task_idcard:
+    type: text
+  task_check_city:
+    type: text
+  task_item:
+    type: text
+  task_time:
+    type: text
+  fillin_tel:
+    type: text
+
+
+
+intents:
+  - task_stop_talks
+  - task_require_1
+  - task_require_3
+  - task_require_4
+  - task_require_5
+  - task_require_id
+  - task_require_TV
+  - task_require_useless
+  - task_require_signal
+  - task_require_no_phone
+  - task_fillin_tel
+  - task_check_weather_1
+  - task_check_weather_2
+  - request_search
+  - inform_time
+  - task_kouling_huifang
+  - task_kuandai_hao
+  - task_kuandai_buhao
+  - task_kuandai_manyi
+  - task_kuandai_bumanyi
+  - task_kuandai_lianxi
+  - task_kuandai_meilianxi
+  - do_not_know
+  - task_kuandai_buzaijia
+  - task_kuandai_yuding
+  - task_kouling_sifayuanzhu
+  - task_sifayuanzhu1
+  - task_sifayuanzhu2
+  - task_sifayuanzhu3
+  - task_sifayuanzhu4
+  - task_kouling_zhiyuanzhe
+  - task_jiayou1
+  - task_jiayou2
+  - task_jiayou3
+  - task_jiayou4
+  - task_to_people
+  - task_jiehaizi
+  - task_jiehaizi1
+  - task_jiehaizi2
+  - task_jiehaizi3
+  - task_jiehaizi4
+  - task_baoxiu_kouling
+  - task_baoxiu1
+  - task_baoxiu2
+  - task_handan_kouling
+  - greet
+  - goodbye
+  - thanks
+  - deny
+  - not_is
+  - confirm
+  - unknown_intent
+
+
+entities:
+  - task_idcard
+  - task_check_city
+  - task_item
+  - task_time
+  - fillin_tel
+
+templates:
+  utter_task_id_1:
+    - "您好，请提供您芯片正面的18位智能卡号，方便我查询一下。"
+  utter_task_id_2:
+    - "请问是贵州省黔东南苗族侗族自治州黎平县德化乡什里村10组，杨根作客户吗？"
+  utter_task_id_3:
+    - "你好，续费单宽带是295元/年30M。在自助业务--充值缴费，可以自行办理。"
+  utter_task_id_4:
+    - "最低缴费50元/月。"
+  utter_task_id_5:
+    - "对不起，我可以为您转接人工客服，或者您在网站——业务办理自行办理！"
+  utter_task_id_6:
+    - "暂时不支持电话号码查询，请提供您的芯片正面的18位智能卡号，方便我查询一下"
+  utter_task_id_7:
+    - "您可以重新启动一下电源和电视机。"
+  utter_task_id_8:
+    - "请您提供正确的芯片正面的18位智能卡号或开户电话"
+  utter_task_id_9:
+    - "对不起，系统中没有您的信息。"
+  utter_task_id_10:
+    - "请您描述一下具体情况"
+  utter_task_id_11:
+    - "那我为您登记，请您提供办理业务时登记的电话号码，以便工作人员上门维修。"
+  utter_task_id_12:
+    - "请问是住在黎平县德化乡什里村10组杨根作用户吗"
+  utter_kuandai_huifang_huanying:
+    - "您好，我是河北广电网络客服，现对您做个回访，您报修的宽带无网络，现在恢复正常使用了吗？"
+  utter_kuandai_huifang:
+    - "另外，通过系统查询您家的数字电视及宽带费用马上到期了，为了不影响您的使用，特此提醒您，方便时到您就近的营业厅缴费，也可以预约我们的网格服务人员上门服务，我们最近推出的优惠套餐是1134元，包含3年的数字电视费用和三年的100兆宽带，同时还有礼品赠送，非常超值。"
+  utter_kuandai_huifang2:
+    - "请问工作人员是在您报销后30分钟之内和您联系并在约定时间上门服务的吗？"
+  utter_kuandai_huifang3:
+    - "请问您对工作人员的服务还满意吗？"
+  utter_kuandai_jieshu_confirm:
+    - "好的，我马上帮您预约，稍后会有我们的网格人员与您联系，请注意接听电话，感谢您的接听，以后在使用数字电视或宽带过程中，遇到任何问题，欢迎您随时拨打我们的客服热线96888，祝您生活愉快，再见！"
+  utter_kuandai_jieshu_not_satisfied:
+    - "非常抱歉，给您带来了不便，您反映的问题我详细记录下来了，我们会上报领导并尽快处理，再见。"
+  utter_sifayuanzhu:
+    - "您好，河北司法援助热线，有什么可以帮助您？"
+  utter_task_sifayuanzhu1:
+    - "这个案件归属于民间借贷纠纷，您可向被告所在地地方法院起诉，您需要准备内容如下：
+        1、原告的身份证及复印件
+        2、起诉状，起诉状数量为被告人加二份，例如一个被告人，需要三份起诉状
+        3、能够证明借贷事实的证据，例如借条、借贷短信、转账截图、汇款凭证等
+        4、准确的被告人信息，包含姓名、居住地址、联系电话等，如果有身份证号码，也可以提供
+        注意，民间借贷的诉讼时效为三年，如果约定了还款时间，则从还款日的次日开始计算,具体内容比较复杂，需要向律师咨询"
+  utter_task_sifayuanzhu2:
+    - "您好，债权人必须先起诉债务人，如果债务人无法履行，担保人承担连带责任，也可以再起诉担保人。"
+  utter_task_sifayuanzhu3:
+    - "能够证明借贷事实的证据，例如借条、借贷短信、转账截图、汇款凭证等，音视频资料需刻录光盘，提供原始证据及复印件"
+  utter_task_sifayuanzhu4:
+    - "起诉状内容有标准的规范，可在河北法院网站www.hebeicourt.gov.cn下载，也可在法院接待厅领取表格"
+  utter_task_zhiyuanzhe:
+    - "您好，这里是邯郸志愿者服务中心，请问您需要什么帮助？"
+  utter_task_jiayou1:
+    - "请问您的车加多少号油?"
+  utter_task_jiayou2:
+    - "请问您贵姓？"
+  utter_task_jiayou3:
+    - "好的，请问您停在哪里了？"
+  utter_task_jiayou4:
+    - "好的，我们登记了您的需求，志愿者会联系您，马上为您服务。谢谢您的使用，再见。如果没有其他需求，请你挂机"
+  utter_task_jiehaizi:
+    - "好的，收集下您孩子信息，请您配合。"
+  utter_task_jiehaizi1:
+    - "请问您的孩子叫什么名字？"
+  utter_task_jiehaizi2:
+    - "请问您孩子是哪个学校，哪个班级"
+  utter_task_jiehaizi3:
+    - "请问孩子的放学时间是什么时候？"
+  utter_task_jiehaizi4:
+    - "请问需要把孩子送到哪里？"
+  utter_task_jiehaizi5:
+    - "好的，已经登记，稍后会有志愿者跟您联系确认，为您准时服务。谢谢您的使用，再见。如果没有其他需求，请你挂机"
+  utter_task_baoxiu_kouling:
+    - "您好，我是智能语音机器人，很高兴为您服务，请说出有什么可以帮到您？"
+  utter_task_baoxiu1:
+    - "请问电视上显示什么文字？"
+  utter_task_baoxiu2:
+    - "您可以重新启动一下机顶盒试试"
+  utter_task_baoxiu3:
+    - "那您可以将智能卡抽出，用橡皮或者干净的布将芯片擦拭一下后重新插入，再重启一下机顶盒"
+  utter_handan_huru:
+    - "您好，我是智能小客服，为您服务。您可以对我说“志愿者服务”“电视报修”“司法援助”。您请说！"
+  utter_greet:
+    - "您好，很高兴为您服务，有什么可以帮助您的吗？"
+  utter_goodbye:
+    - "再见,为您服务很开心，"
+  utter_thanks:
+    - "不用谢"
+  utter_ask_morehelp:
+    - "还有什么可以帮您的吗？"
+    - "请问还有什么能够帮住您的吗？"
+    - "请问还有什么可以帮助您的吗？"
+  utter_no_answer:
+    - "关于这个问题，我将为您转接人工客服。"
+  utter_task_topeople:
+    - "正在转接中，请稍等！"
+  utter_input_number:
+    - "请输入号码，按井号键确认"
+  utter_ask_weather:
+    - "请问您要查哪里的天气"
+  utter_end:
+    - "工作人员24小时内上门维修，请您注意电话。"
+  utter_askfor_name:
+    - "请您发送您的登记姓名。"
+  utter_ask_time:
+    - "您想查询哪个月的消费"
+  utter_wait:
+    - "正在查询，请稍候"
+  utter_reply:
+    - "您好，您一月份共消费二十八元。"
+  utter_re_input:
+    - "请您重新输入信息，按井号键确认"
+  utter_default:
+    - "我还比较小"
+
+
+
+actions:
+  - utter_task_id_1
+  - utter_task_id_2
+  - utter_task_id_3
+  - utter_task_id_4
+  - utter_task_id_5
+  - utter_task_id_6
+  - utter_task_id_7
+  - utter_task_id_8
+  - utter_task_id_9
+  - utter_task_id_10
+  - utter_task_id_11
+  - utter_task_id_12
+  - utter_kuandai_huifang_huanying
+  - utter_kuandai_huifang
+  - utter_kuandai_huifang2
+  - utter_kuandai_huifang3
+  - utter_kuandai_jieshu_confirm
+  - utter_kuandai_jieshu_not_satisfied
+  - utter_sifayuanzhu
+  - utter_task_sifayuanzhu1
+  - utter_task_sifayuanzhu2
+  - utter_task_sifayuanzhu3
+  - utter_task_sifayuanzhu4
+  - utter_task_zhiyuanzhe
+  - utter_task_jiayou1
+  - utter_task_jiayou2
+  - utter_task_jiayou3
+  - utter_task_jiayou4
+  - utter_task_jiehaizi
+  - utter_task_jiehaizi1
+  - utter_task_jiehaizi2
+  - utter_task_jiehaizi3
+  - utter_task_jiehaizi4
+  - utter_task_jiehaizi5
+  - utter_task_topeople
+  - utter_task_baoxiu_kouling
+  - utter_task_baoxiu1
+  - utter_task_baoxiu2
+  - utter_task_baoxiu3
+  - utter_handan_huru
+  - utter_ask_weather
+  - utter_ask_morehelp
+  - utter_ask_time
+  - utter_end
+  - utter_askfor_name
+  - utter_greet
+  - utter_goodbye
+  - utter_thanks
+  - utter_wait
+  - utter_reply
+  - utter_re_input
+  - utter_input_number
+  - utter_no_answer
+  - utter_default
+  - action_check_tel
+  - action_check_weather
+  - action_fillin_tel
+

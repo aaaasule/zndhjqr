@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/xiaoqi/Desktop/zndhjqr_nlp/now_models/nlu/qa/qa_20190528150014/component_3_EmbeddingIntentClassifier.ckpt"
+all_model_checkpoint_paths: "/Users/xiaoqi/Desktop/zndhjqr_nlp/now_models/nlu/qa/qa_20190528150014/component_3_EmbeddingIntentClassifier.ckpt"

@@ -1,0 +1,6243 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "列表",
+            "entity": "list"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "项目",
+            "entity": "project"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "主网台账移交，项目列表查询不到项目，现无法做移交单怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "列表",
+            "entity": "list"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "项目",
+            "entity": "project"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "项目列表查询不到项目，现无法做移交单该怎么办呢"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "列表",
+            "entity": "list"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "项目",
+            "entity": "project"
+          }
+        ],
+        "text": "为什么主网台账移交，项目列表查询不到项目"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "列表",
+            "entity": "list"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "项目",
+            "entity": "project"
+          }
+        ],
+        "text": "主网台账移交，项目列表查询不到项目怎么解决"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "校验数据",
+            "entity": "check"
+          }
+        ],
+        "text": "主网台账移交，移交单发送失败，提示：存在校验数据未通过"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "校验数据",
+            "entity": "check"
+          }
+        ],
+        "text": "主网台账移交，移交单发送失败，提示：存在校验数据未通过怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 11,
+            "end": 13,
+            "value": "系统",
+            "entity": "system"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "异常",
+            "entity": "abnormal"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          }
+        ],
+        "text": "主网移交单，发送时提示系统发生运行时异常"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "投运时间",
+            "entity": "time"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          }
+        ],
+        "text": "主网移交单，投运时间显示默认无法更改"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "投运时间",
+            "entity": "time"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          }
+        ],
+        "text": "主网移交单，投运时间显示默认无法更改怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "投运时间",
+            "entity": "time"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          }
+        ],
+        "text": "主网移交单，投运时间显示默认无法更改如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "投运时间",
+            "entity": "time"
+          }
+        ],
+        "text": "为什么主网移交单，投运时间显示默认无法更改"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "value": "新增的设备",
+            "entity": "equ"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "工作区",
+            "entity": "area"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "无法",
+            "entity": "cannot"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "查看",
+            "entity": "see"
+          }
+        ],
+        "text": "主网移交单，新增的设备在工作区无法查看到，只能去台账浏览查看"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "新增设备",
+            "entity": "equ"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "工作区",
+            "entity": "area"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "无法",
+            "entity": "cannot"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "查看",
+            "entity": "see"
+          }
+        ],
+        "text": "主网移交单，新增设备在工作区无法查看到怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "工作区",
+            "entity": "area"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "新增设备",
+            "entity": "equ"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "无法",
+            "entity": "cannot"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "查看",
+            "entity": "see"
+          }
+        ],
+        "text": "主网移交单，新增设备在工作区无法查看到，只能去台账浏览查看"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "发送",
+            "entity": "send"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "人员",
+            "entity": "person"
+          }
+        ],
+        "text": "主网移交单发送时没有人员可选"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "发送",
+            "entity": "send"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "人员",
+            "entity": "person"
+          }
+        ],
+        "text": "主网移交单发送时没有人员可选如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "故障抢修管理",
+            "entity": "manager"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "调度填报",
+            "entity": "item"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 26,
+            "end": 27,
+            "value": "单",
+            "entity": "bill"
+          }
+        ],
+        "text": "故障抢修管理，调度填报的单子，无法删除，提示已处理的单据无法删除"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "故障抢修管理",
+            "entity": "manager"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "调度填报",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 13,
+            "value": "单",
+            "entity": "bill"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "删除",
+            "entity": "delete"
+          }
+        ],
+        "text": "故障抢修管理，调度填报的单子，无法删除"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "配网",
+            "entity": "distribution"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "设备",
+            "entity": "equ"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "批量修改",
+            "entity": "amend"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "配网移交单，设备类别无法批量修改"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "配网",
+            "entity": "distribution"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "设备",
+            "entity": "equ"
+          },
+          {
+            "start": 15,
+            "end": 19,
+            "value": "批量修改",
+            "entity": "amend"
+          }
+        ],
+        "text": "为什么配网移交单，设备类别无法批量修改"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "配网",
+            "entity": "distribution"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "设备",
+            "entity": "equ"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "批量修改",
+            "entity": "amend"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "配网移交单，设备类别无法批量修改怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "移交",
+            "entity": "return"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "异常",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "生产系统主网台账移交模块异常，无法正常编辑台账，只能编辑功能模块"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "移交",
+            "entity": "return"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "异常",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "生产系统主网台账移交模块异常，无法正常编辑台账，只能编辑功能模块怎样处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 11,
+            "end": 19,
+            "value": "输电线路设备规范",
+            "entity": "standard"
+          },
+          {
+            "start": 26,
+            "end": 29,
+            "value": "T阶段",
+            "entity": "step"
+          },
+          {
+            "start": 30,
+            "end": 37,
+            "value": "电子化移交台账",
+            "entity": "standing"
+          }
+        ],
+        "text": "主网移交单，梯接线路，输电线路设备规范，已有1条如何T阶段的电子化移交台账"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "输电线路设备规范",
+            "entity": "standard"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "T阶段",
+            "entity": "step"
+          },
+          {
+            "start": 19,
+            "end": 26,
+            "value": "电子化移交台账",
+            "entity": "standing"
+          }
+        ],
+        "text": "输电线路设备规范，已有1条如何T阶段的电子化移交台账"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "编辑",
+            "entity": "edit"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "无法右键",
+            "entity": "abnormal"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "删除",
+            "entity": "delete"
+          }
+        ],
+        "text": "主网移交单，台账编辑时无法右键不显示删除按钮"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "编辑",
+            "entity": "edit"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "无法右键",
+            "entity": "abnormal"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "删除",
+            "entity": "delete"
+          }
+        ],
+        "text": "主网移交单，台账编辑时无法右键不显示删除按钮怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "编辑",
+            "entity": "edit"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "无法右键",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网移交单，台账编辑时无法右键"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "编辑",
+            "entity": "edit"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "不显示",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网移交单，台账编辑时不显示删除按钮"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "查看不到",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网台账移交，移交单查看不到，该如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "查看不到",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网台账移交，移交单查看不到怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "查看不到",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网台账移交，移交单查看不到怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "新增",
+            "entity": "add"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "主网台账移交，如何新增移交单"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "投运",
+            "entity": "put"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "数据",
+            "entity": "data"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "有误",
+            "entity": "abnormal"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "挂接节点",
+            "entity": "node"
+          }
+        ],
+        "text": "主网移交单，投运时提示数据有误，请重新选择挂接节点"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "恢复",
+            "entity": "recover"
+          }
+        ],
+        "text": "主网台账移交，被删除的移交单该如何恢复"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "恢复",
+            "entity": "recover"
+          }
+        ],
+        "text": "主网台账移交，被删除的移交单该可以恢复吗？"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 14,
+            "end": 16,
+            "value": "结单",
+            "entity": "item"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "处理方式",
+            "entity": "style"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "选择不到",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网移交单投运时选择不到对应结单的处理方式"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "处理方式",
+            "entity": "style"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "结单",
+            "entity": "item"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "选择不到",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网移交单投运选择不到对应结单的处理方式"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "结单",
+            "entity": "item"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "处理",
+            "entity": "style"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "选择不到",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网移交单投运时选择不到对应结单怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "位置",
+            "entity": "loction"
+          }
+        ],
+        "text": "如何删除主网台账功能位置"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "南宁",
+            "entity": "loction"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "供电局",
+            "entity": "name"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "调度",
+            "entity": "item"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "功能位置",
+            "entity": "loction"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "删除",
+            "entity": "delete"
+          }
+        ],
+        "text": "南宁供电局下的调度存在重复的功能位置，该如何删除功能位置"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "线路投运",
+            "entity": "item"
+          }
+        ],
+        "text": "主网移交单无法选择线路投运"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "组键",
+            "entity": "item"
+          },
+          {
+            "start": 23,
+            "end": 25,
+            "value": "线路",
+            "entity": "item"
+          }
+        ],
+        "text": "主网移交单，投运时找不到选择组键时无法查看到该线路"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "工具",
+            "entity": "tool"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "台帐",
+            "entity": "standing"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "下载",
+            "entity": "download"
+          }
+        ],
+        "text": "如何下载主网移交单台帐工具"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "工具",
+            "entity": "tool"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "台帐",
+            "entity": "standing"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "下载",
+            "entity": "download"
+          }
+        ],
+        "text": "怎么下载主网移交单台帐工具"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "工具",
+            "entity": "tool"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "下载",
+            "entity": "download"
+          }
+        ],
+        "text": "主网移交单台账工具如何下载"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "人员",
+            "entity": "person"
+          },
+          {
+            "start": 29,
+            "end": 31,
+            "value": "设置",
+            "entity": "set"
+          }
+        ],
+        "text": "主网台账移交，移交单台账初设环节，发送时无人员可选，但人员设置"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "台帐",
+            "entity": "standing"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "编辑",
+            "entity": "edit"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "单据",
+            "entity": "bill"
+          },
+          {
+            "start": 23,
+            "end": 25,
+            "value": "锁定",
+            "entity": "lock"
+          }
+        ],
+        "text": "主网移交单台帐无法编辑，系统提示：已被其他单据锁定"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "配网",
+            "entity": "distribution"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "设备",
+            "entity": "equ"
+          }
+        ],
+        "text": "配网移交单，设备类别无法批量修改"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "配网",
+            "entity": "distribution"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "设备",
+            "entity": "equ"
+          }
+        ],
+        "text": "为什么配网移交单，设备类别无法批量修改"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "配网",
+            "entity": "distribution"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "设备",
+            "entity": "equ"
+          }
+        ],
+        "text": "配网移交单，设备类别无法批量修改怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "模块",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "异常",
+            "entity": "abnormal"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "编辑",
+            "entity": "edit"
+          }
+        ],
+        "text": "生产系统主网台账移交模块异常，无法正常编辑台账，只能编辑功能模块"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "模块",
+            "entity": "item"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "异常",
+            "entity": "abnormal"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "编辑",
+            "entity": "edit"
+          }
+        ],
+        "text": "生产系统主网台账移交模块异常，无法正常编辑台账，只能编辑功能模块怎样处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流程",
+            "entity": "flow"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "项目经理",
+            "entity": "person"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "主网台账移交，移交单流程已到项目经理审核阶段，但发送无人可选，该如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 1,
+            "end": 5,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "在生产系统中，如何删除主网移交单"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "系统",
+            "entity": "system"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 15,
+            "end": 19,
+            "value": "操作手册",
+            "entity": "bill"
+          }
+        ],
+        "text": "在系统中哪里可以下载主网移交单操作手册"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "人员",
+            "entity": "person"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "选择",
+            "entity": "check"
+          }
+        ],
+        "text": "为什么主网移交单提交时无人员可选择"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "用户",
+            "entity": "person"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "咨询",
+            "entity": "ask"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "项目经理",
+            "entity": "person"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "用户来电咨询主网台账移交，移交单项目经理审核环节发送无人可选，该如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "设备",
+            "entity": "equ"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "新增",
+            "entity": "add"
+          }
+        ],
+        "text": "主网设备如何新增"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "模块",
+            "entity": "item"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "工作区",
+            "entity": "area"
+          },
+          {
+            "start": 25,
+            "end": 27,
+            "value": "名称",
+            "entity": "name"
+          },
+          {
+            "start": 32,
+            "end": 34,
+            "value": "后台",
+            "entity": "background"
+          }
+        ],
+        "text": "生产系统-主网台账移交模块不小心删除一个站的工作区名称，是否可以后台找回"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "模块",
+            "entity": "item"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "工作区",
+            "entity": "area"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "名称",
+            "entity": "name"
+          },
+          {
+            "start": 24,
+            "end": 26,
+            "value": "后台",
+            "entity": "background"
+          }
+        ],
+        "text": "生产系统-主网台账移交模块删除的工作区名称，可以后台找回吗"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "工作区",
+            "entity": "area"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "锁定",
+            "entity": "lock"
+          }
+        ],
+        "text": "主网台账移交，移交单被工作区锁定，该如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "生产厂家",
+            "entity": "factory"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "系统库",
+            "entity": "system"
+          }
+        ],
+        "text": "主网移交单无法录入生产厂家，系统库没有该厂家如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 17,
+            "end": 18,
+            "value": "人",
+            "entity": "person"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "审核",
+            "entity": "check"
+          }
+        ],
+        "text": "主网台账移交，移交单台账审核环节无人可选，该如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 20,
+            "end": 21,
+            "value": "人",
+            "entity": "person"
+          },
+          {
+            "start": 25,
+            "end": 27,
+            "value": "设置",
+            "entity": "set"
+          },
+          {
+            "start": 27,
+            "end": 29,
+            "value": "添加",
+            "entity": "add"
+          }
+        ],
+        "text": "主网台账移交，移交单台账初设环节发送选择人员该如何设置添加"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "方法",
+            "entity": "method"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "新增",
+            "entity": "add"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "按钮",
+            "entity": "button"
+          }
+        ],
+        "text": "主网台账移交单建单方法，找不到新增按钮"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流程",
+            "entity": "flow"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "项目经理",
+            "entity": "person"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "审核",
+            "entity": "check"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "主网台账移交，移交单流程已到项目经理审核环节，但发送无人可选，该如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "保护装置",
+            "entity": "equ"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "数据",
+            "entity": "data"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "服务器",
+            "entity": "server"
+          },
+          {
+            "start": 24,
+            "end": 26,
+            "value": "系统",
+            "entity": "system"
+          }
+        ],
+        "text": "主网移交单修改的保护装置数据已提交服务器，但是在系统中还是看不到"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 5,
+            "end": 8,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 11,
+            "end": 12,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "为什么主网移交单提交无人员可选择"
+      },
+      {
+        "intent": "proSystem_sysPlanMan_powServiceMan",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "停电申请单",
+            "entity": "item"
+          }
+        ],
+        "text": "为什么停电申请单无法查询"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "项目经理",
+            "entity": "projectmanager"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "审核",
+            "entity": "check"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "无人",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网台账移交项目经理审核无人可选该怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "项目列表",
+            "entity": "list"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "项目",
+            "entity": "project"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "主网台账移交，项目列表查询不到项目，现无法做移交单如何处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "项目列表",
+            "entity": "list"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "项目",
+            "entity": "project"
+          },
+          {
+            "start": 26,
+            "end": 29,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "怎么处理主网台账移交，项目列表查询不到项目，现无法做移交单的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "项目列表",
+            "entity": "list"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "项目",
+            "entity": "project"
+          },
+          {
+            "start": 22,
+            "end": 25,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "主网台账移交，项目列表查询不到项目，现无法做移交单的问题怎么解决"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "校验数据",
+            "entity": "check"
+          }
+        ],
+        "text": "主网台账移交，移交单发送失败，提示：存在校验数据未通过怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "校验数据",
+            "entity": "check"
+          }
+        ],
+        "text": "主网台账移交，移交单发送失败，提示：存在校验数据未通过的时候怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "系统",
+            "entity": "system"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "异常",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网移交单，发送时提示系统发生运行时异常怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "系统",
+            "entity": "system"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "异常",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "怎么处理主网移交单，发送时提示系统发生运行时异常的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "系统",
+            "entity": "system"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "异常",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "怎么解决主网移交单，发送时提示系统发生运行时异常"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "投运时间",
+            "entity": "time"
+          }
+        ],
+        "text": "怎么解决主网移交单，投运时间显示默认无法更改的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 14,
+            "value": "投运时间",
+            "entity": "time"
+          }
+        ],
+        "text": "怎么处理主网移交单，投运时间显示默认无法更改"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 11,
+            "value": "新增的设备",
+            "entity": "equ"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "工作区",
+            "entity": "area"
+          },
+          {
+            "start": 24,
+            "end": 26,
+            "value": "台账",
+            "entity": "standing"
+          }
+        ],
+        "text": "主网移交单，新增的设备在工作区无法查看到，只能去台账浏览查看该怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "人员",
+            "entity": "person"
+          }
+        ],
+        "text": "主网移交单发送时没有人员可选怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "人员",
+            "entity": "person"
+          }
+        ],
+        "text": "怎么解决主网移交单发送时没有人员可选的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "故障抢修管理",
+            "entity": "manager"
+          },
+          {
+            "start": 30,
+            "end": 32,
+            "value": "单据",
+            "entity": "data"
+          },
+          {
+            "start": 11,
+            "end": 15,
+            "value": "调度填报",
+            "entity": "item"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "删除",
+            "entity": "delete"
+          }
+        ],
+        "text": "怎么处理故障抢修管理，调度填报的单子，无法删除，提示已处理的单据无法删除的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "故障抢修管理",
+            "entity": "manager"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "调度填报",
+            "entity": "item"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 26,
+            "end": 28,
+            "value": "单据",
+            "entity": "data"
+          }
+        ],
+        "text": "故障抢修管理，调度填报的单子，无法删除，提示已处理的单据无法删除时该怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "配网",
+            "entity": "distribution"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "批量修改",
+            "entity": "amend"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "设备",
+            "entity": "equ"
+          }
+        ],
+        "text": "配网移交单，无法批量修改设备类别应该怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 4,
+            "end": 8,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "移交",
+            "entity": "return"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "异常",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "生产系统主网台账移交模块异常，无法正常编辑台账，只能编辑功能模块该怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "移交",
+            "entity": "return"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "异常",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "怎么解决生产系统主网台账移交模块异常，无法正常编辑台账，只能编辑功能模块的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "编辑",
+            "entity": "edit"
+          }
+        ],
+        "text": "怎么解决主网移交单，台账编辑时无法右键不显示删除按钮的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "查看不到",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "怎么解决主网台账移交，移交单查看不到的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "投运",
+            "entity": "put"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "数据",
+            "entity": "data"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "有误",
+            "entity": "abnormal"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "挂接节点",
+            "entity": "node"
+          }
+        ],
+        "text": "主网移交单，投运时提示数据有误，请重新选择挂接节点时怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "投运",
+            "entity": "put"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "数据",
+            "entity": "data"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "有误",
+            "entity": "abnormal"
+          },
+          {
+            "start": 25,
+            "end": 29,
+            "value": "挂接节点",
+            "entity": "node"
+          }
+        ],
+        "text": "怎么解决主网移交单，投运时提示数据有误，请重新选择挂接节点的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "投运",
+            "entity": "put"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "数据",
+            "entity": "data"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "有误",
+            "entity": "abnormal"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "挂接节点",
+            "entity": "node"
+          }
+        ],
+        "text": "主网移交单，投运时提示数据有误，请重新选择挂接节点时应该怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "恢复",
+            "entity": "recover"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "主网台账移交，该如何恢复被删除的移交单"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "找回",
+            "entity": "recover"
+          }
+        ],
+        "text": "主网台账移交，被删除的移交单怎么找回"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "找回",
+            "entity": "recover"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "主网台账移交，该如何找回被删除的移交单"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 8,
+            "end": 12,
+            "value": "选择不到",
+            "entity": "abnormal"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "结单",
+            "entity": "item"
+          }
+        ],
+        "text": "主网移交单投运时选择不到对应结单应该怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "选择不到",
+            "entity": "abnormal"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "结单",
+            "entity": "item"
+          }
+        ],
+        "text": "如何解决主网移交单投运时选择不到对应结单的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 16,
+            "value": "选择不到",
+            "entity": "abnormal"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "结单",
+            "entity": "item"
+          }
+        ],
+        "text": "怎么处理主网移交单投运时选择不到对应结单"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 6,
+            "end": 10,
+            "value": "主网台账",
+            "entity": "main"
+          }
+        ],
+        "text": "怎么才能删除主网台账"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "位置",
+            "entity": "location"
+          }
+        ],
+        "text": "删除主网台账功能位置在哪儿"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 2,
+            "end": 6,
+            "value": "主网台账",
+            "entity": "main"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "找到",
+            "entity": "find"
+          }
+        ],
+        "text": "删除主网台账功能在哪儿可以找到"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "线路投运",
+            "entity": "item"
+          }
+        ],
+        "text": "主网移交单无法选择线路投运怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "线路投运",
+            "entity": "item"
+          }
+        ],
+        "text": "怎么处理主网移交单无法选择线路投运的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "线路投运",
+            "entity": "item"
+          }
+        ],
+        "text": "如何解决主网移交单无法选择线路投运"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "台帐",
+            "entity": "standing"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "工具",
+            "entity": "tools"
+          }
+        ],
+        "text": "下载主网移交单台帐工具的路径在哪儿"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 11,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "台帐",
+            "entity": "standing"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "工具",
+            "entity": "tools"
+          }
+        ],
+        "text": "怎么找到下载主网移交单台帐工具的页面"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "人员",
+            "entity": "person"
+          },
+          {
+            "start": 29,
+            "end": 31,
+            "value": "设置",
+            "entity": "set"
+          }
+        ],
+        "text": "主网台账移交，移交单台账初设环节，发送时无人员可选，但人员设置,该怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 25,
+            "end": 27,
+            "value": "人员",
+            "entity": "person"
+          },
+          {
+            "start": 33,
+            "end": 35,
+            "value": "设置",
+            "entity": "set"
+          }
+        ],
+        "text": "怎么解决主网台账移交，移交单台账初设环节，发送时无人员可选，但人员设置的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "人员",
+            "entity": "person"
+          },
+          {
+            "start": 29,
+            "end": 31,
+            "value": "设置",
+            "entity": "set"
+          }
+        ],
+        "text": "主网台账移交，移交单台账初设环节，发送时无人员可选，但人员设置怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "台帐",
+            "entity": "standing"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "编辑",
+            "entity": "edit"
+          },
+          {
+            "start": 25,
+            "end": 27,
+            "value": "单据",
+            "entity": "data"
+          }
+        ],
+        "text": "怎么处理主网移交单台帐无法编辑，系统提示：已被其他单据锁定的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "台帐",
+            "entity": "standing"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "编辑",
+            "entity": "edit"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "单据",
+            "entity": "data"
+          }
+        ],
+        "text": "主网移交单台帐无法编辑，系统提示：已被其他单据锁定该怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "台帐",
+            "entity": "standing"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "编辑",
+            "entity": "edit"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "单据",
+            "entity": "data"
+          }
+        ],
+        "text": "主网移交单台帐无法编辑，系统提示：已被其他单据锁定的时候怎么解决"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "流程",
+            "entity": "flow"
+          },
+          {
+            "start": 19,
+            "end": 23,
+            "value": "项目经理",
+            "entity": "person"
+          },
+          {
+            "start": 32,
+            "end": 33,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "该怎么解决主网台账移交，移交单流程已到项目经理审核阶段，但发送无人可选的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流程",
+            "entity": "flow"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "项目经理",
+            "entity": "person"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "主网台账移交，移交单流程已到项目经理审核阶段，但发送无人可选，该怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "流程",
+            "entity": "flow"
+          },
+          {
+            "start": 14,
+            "end": 18,
+            "value": "项目经理",
+            "entity": "person"
+          },
+          {
+            "start": 28,
+            "end": 29,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "主网台账移交，移交单流程已到项目经理审核阶段，但发送时无人可选"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 1,
+            "end": 5,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "删除",
+            "entity": "delete"
+          }
+        ],
+        "text": "在生产系统中，主网移交单如何删除"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 1,
+            "end": 5,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "在生产系统中，删除主网移交单该怎么操作"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 1,
+            "end": 5,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "在生产系统中，删除主网移交单有什么办法"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "系统",
+            "entity": "system"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "操作手册",
+            "entity": "bill"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "在系统中主网移交单操作手册的下载路径在哪儿"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "用户",
+            "entity": "person"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "咨询",
+            "entity": "ask"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 13,
+            "end": 15,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 21,
+            "end": 25,
+            "value": "项目经理",
+            "entity": "person"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 27,
+            "end": 29,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 32,
+            "end": 33,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "该怎么解决用户来电咨询主网台账移交，移交单项目经理审核环节发送无人可选的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "用户",
+            "entity": "person"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "咨询",
+            "entity": "ask"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "项目经理",
+            "entity": "person"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "用户来电咨询主网台账移交，移交单项目经理审核环节发送无人可选时该怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "用户",
+            "entity": "person"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "咨询",
+            "entity": "ask"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 16,
+            "end": 20,
+            "value": "项目经理",
+            "entity": "person"
+          },
+          {
+            "start": 22,
+            "end": 24,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 27,
+            "end": 28,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "用户来电咨询主网台账移交，移交单项目经理审核环节发送无人可选"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "增加",
+            "entity": "add"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "设备",
+            "entity": "equ"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          }
+        ],
+        "text": "怎么增加主网设备"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "增加",
+            "entity": "add"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "设备",
+            "entity": "equ"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "主网",
+            "entity": "main"
+          }
+        ],
+        "text": "增加主网设备的方式有多少"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "后台",
+            "entity": "background"
+          },
+          {
+            "start": 7,
+            "end": 11,
+            "value": "生产系统",
+            "entity": "system"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "模块",
+            "entity": "item"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "删除",
+            "entity": "delete"
+          },
+          {
+            "start": 27,
+            "end": 30,
+            "value": "工作区",
+            "entity": "project"
+          },
+          {
+            "start": 30,
+            "end": 32,
+            "value": "名称",
+            "entity": "name"
+          }
+        ],
+        "text": "可以在后台找回生产系统-主网台账移交模块删除的一个站的工作区名称吗"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "工作区",
+            "entity": "project"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "锁定",
+            "entity": "lock"
+          }
+        ],
+        "text": "怎么解决主网台账移交，移交单被工作区锁定的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "工作区",
+            "entity": "project"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "锁定",
+            "entity": "lock"
+          }
+        ],
+        "text": "主网台账移交，移交单被工作区锁定"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "工作区",
+            "entity": "project"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "锁定",
+            "entity": "lock"
+          },
+          {
+            "start": 13,
+            "end": 16,
+            "value": "移交单",
+            "entity": "form"
+          }
+        ],
+        "text": "主网台账移交，工作区锁定了移交单怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 13,
+            "end": 17,
+            "value": "生产厂家",
+            "entity": "factory"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "系统库",
+            "entity": "system"
+          }
+        ],
+        "text": "怎么解决主网移交单无法录入生产厂家，系统库没有该厂家的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "生产厂家",
+            "entity": "factory"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "系统库",
+            "entity": "system"
+          }
+        ],
+        "text": "主网移交单无法录入生产厂家，系统库没有该厂家该怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 9,
+            "end": 13,
+            "value": "生产厂家",
+            "entity": "factory"
+          },
+          {
+            "start": 14,
+            "end": 17,
+            "value": "系统库",
+            "entity": "system"
+          }
+        ],
+        "text": "主网移交单无法录入生产厂家，系统库没有该厂家"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "审核",
+            "entity": "check"
+          }
+        ],
+        "text": "主网台账移交，移交单台账审核环节无人可选时怎么办"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "解决",
+            "entity": "solve"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 11,
+            "end": 14,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "审核",
+            "entity": "check"
+          },
+          {
+            "start": 18,
+            "end": 20,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 21,
+            "end": 22,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "怎么解决主网台账移交，移交单台账审核环节无人可选的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "审核",
+            "entity": "check"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 17,
+            "end": 18,
+            "value": "人",
+            "entity": "person"
+          }
+        ],
+        "text": "主网台账移交，移交单台账审核环节无人可选"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "初设",
+            "entity": "firstfounded"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "发送",
+            "entity": "send"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "人员",
+            "entity": "person"
+          }
+        ],
+        "text": "主网台账移交，移交单台账初设环节发送选择人员该如何操作"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "移交",
+            "entity": "return"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "初设",
+            "entity": "firstfounded"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 19,
+            "end": 21,
+            "value": "添加",
+            "entity": "add"
+          },
+          {
+            "start": 25,
+            "end": 27,
+            "value": "人员",
+            "entity": "person"
+          }
+        ],
+        "text": "主网台账移交，移交单台账初设环节该如何添加发送选择人员"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 7,
+            "end": 10,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "初设",
+            "entity": "firstfounded"
+          },
+          {
+            "start": 14,
+            "end": 16,
+            "value": "环节",
+            "entity": "style"
+          },
+          {
+            "start": 20,
+            "end": 22,
+            "value": "人员",
+            "entity": "person"
+          },
+          {
+            "start": 28,
+            "end": 30,
+            "value": "处理",
+            "entity": "dealwith"
+          }
+        ],
+        "text": "主网台账移交，移交单台账初设环节发送选择人员无法添加怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "新增",
+            "entity": "add"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "方法",
+            "entity": "method"
+          }
+        ],
+        "text": "主网台账移交单建单方法，新增按钮在哪儿"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "新增",
+            "entity": "add"
+          },
+          {
+            "start": 16,
+            "end": 19,
+            "value": "找不到",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "主网台账移交单建单方法，新增按钮找不到"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "台账",
+            "entity": "standing"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "建单",
+            "entity": "add"
+          }
+        ],
+        "text": "主网台账移交单建单该怎么操作"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "数据",
+            "entity": "data"
+          },
+          {
+            "start": 17,
+            "end": 20,
+            "value": "服务器",
+            "entity": "server"
+          },
+          {
+            "start": 24,
+            "end": 26,
+            "value": "系统",
+            "entity": "system"
+          }
+        ],
+        "text": "主网移交单修改的保护装置数据已提交服务器，但是在系统中还是没有怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "系统",
+            "entity": "system"
+          },
+          {
+            "start": 4,
+            "end": 7,
+            "value": "看不到",
+            "entity": "abnormal"
+          },
+          {
+            "start": 12,
+            "end": 15,
+            "value": "服务器",
+            "entity": "server"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 18,
+            "end": 21,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 28,
+            "end": 30,
+            "value": "数据",
+            "entity": "data"
+          }
+        ],
+        "text": "在系统中看不到，已提交到服务器的主网移交单修改的保护装置数据"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "解决",
+            "entity": "solve"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "数据",
+            "entity": "data"
+          },
+          {
+            "start": 21,
+            "end": 24,
+            "value": "服务器",
+            "entity": "server"
+          },
+          {
+            "start": 28,
+            "end": 30,
+            "value": "系统",
+            "entity": "system"
+          },
+          {
+            "start": 33,
+            "end": 36,
+            "value": "看不到",
+            "entity": "abnormal"
+          }
+        ],
+        "text": "怎么解决主网移交单修改的保护装置数据已提交服务器，但是在系统中还是看不到的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "人员",
+            "entity": "person"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "选择",
+            "entity": "select"
+          }
+        ],
+        "text": "主网移交单提交无人员可选择怎么处理"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "解决",
+            "entity": "solve"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 6,
+            "end": 9,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "人员",
+            "entity": "person"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "选择",
+            "entity": "select"
+          }
+        ],
+        "text": "怎么解决主网移交单提交无人员可选择的问题"
+      },
+      {
+        "intent": "proSystem_equAssetMan_mainLedgerTurn",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "主网",
+            "entity": "main"
+          },
+          {
+            "start": 2,
+            "end": 5,
+            "value": "移交单",
+            "entity": "form"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "选择",
+            "entity": "select"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "人员",
+            "entity": "person"
+          }
+        ],
+        "text": "主网移交单提交没有可选择人员"
+      },
+      {
+        "intent": "intent_5872",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "介绍一下云呼叫的产品"
+      },
+      {
+        "intent": "intent_5872",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "云呼叫那有什么用"
+      },
+      {
+        "intent": "intent_5872",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "云呼叫产品那个能做什么"
+      },
+      {
+        "intent": "intent_5872",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "意思",
+            "entity": "yunhujiao_meaning"
+          }
+        ],
+        "text": "云呼叫什么意思"
+      },
+      {
+        "intent": "intent_5872",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "意思",
+            "entity": "yunhujiao_meaning"
+          }
+        ],
+        "text": "云呼叫是啥意思"
+      },
+      {
+        "intent": "intent_5872",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 7,
+            "end": 9,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "你们这个云呼叫产品是什么啊"
+      },
+      {
+        "intent": "intent_5872",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "你们",
+            "entity": "yunhujiao_person"
+          }
+        ],
+        "text": "介绍一下你们的产品"
+      },
+      {
+        "intent": "intent_5872",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "中心",
+            "entity": "yunhujiao_center"
+          }
+        ],
+        "text": "什么是云呼叫中心"
+      },
+      {
+        "intent": "intent_5873",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "场景",
+            "entity": "yunhujiao_sence"
+          }
+        ],
+        "text": "云呼叫产品适用的场景是什么"
+      },
+      {
+        "intent": "intent_5873",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "场景",
+            "entity": "yunhujiao_sence"
+          }
+        ],
+        "text": "云呼叫产品适用的场景是什么"
+      },
+      {
+        "intent": "intent_5873",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "时候",
+            "entity": "yunhujiao_time"
+          }
+        ],
+        "text": "什么时候用云呼叫产品"
+      },
+      {
+        "intent": "intent_5873",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "value": "我",
+            "entity": "yunhujiao_person"
+          }
+        ],
+        "text": "云呼叫能给我带来什么"
+      },
+      {
+        "intent": "intent_5873",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "场景",
+            "entity": "yunhujiao_sence"
+          }
+        ],
+        "text": "云呼叫应用的场景是什么"
+      },
+      {
+        "intent": "intent_5874",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "优势",
+            "entity": "yunhujiao_feature"
+          }
+        ],
+        "text": "云呼叫的产品优势是什么"
+      },
+      {
+        "intent": "intent_5874",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "呼叫中心",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 15,
+            "end": 17,
+            "value": "优势",
+            "entity": "yunhujiao_feature"
+          },
+          {
+            "start": 12,
+            "end": 14,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 9,
+            "end": 12,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "和传统呼叫中心对比云呼叫产品的优势是什么"
+      },
+      {
+        "intent": "intent_5874",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "优势",
+            "entity": "yunhujiao_feature"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "你们",
+            "entity": "yunhujiao_person"
+          }
+        ],
+        "text": "你们这个有什么优势啊"
+      },
+      {
+        "intent": "intent_5874",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "优势",
+            "entity": "yunhujiao_feature"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "云呼叫优势有哪些"
+      },
+      {
+        "intent": "intent_5874",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "优点",
+            "entity": "yunhujiao_feature"
+          }
+        ],
+        "text": "云呼叫有啥优点"
+      },
+      {
+        "intent": "intent_5874",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "地方",
+            "entity": "yunhujiao_feature"
+          }
+        ],
+        "text": "云呼叫啥地方比较好"
+      },
+      {
+        "intent": "intent_5874",
+        "entities": [
+          {
+            "start": 1,
+            "end": 5,
+            "value": "呼叫中心",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "这呼叫中心怎么样啊"
+      },
+      {
+        "intent": "intent_5874",
+        "entities": [
+          {
+            "start": 4,
+            "end": 8,
+            "value": "呼叫中心",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "优势",
+            "entity": "yunhujiao_feature"
+          }
+        ],
+        "text": "对比传统呼叫中心有哪些优势"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "价位",
+            "entity": "yunhujiao_price"
+          }
+        ],
+        "text": "云呼叫产品是什么价位？"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "价格",
+            "entity": "yunhujiao_price"
+          }
+        ],
+        "text": "云呼叫产品的价格"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "价位",
+            "entity": "yunhujiao_price"
+          }
+        ],
+        "text": "产品什么价位啊"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "产品怎么卖的啊"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 3,
+            "end": 4,
+            "value": "钱",
+            "entity": "yunhujiao_price"
+          }
+        ],
+        "text": "怎么算钱啊"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "value": "钱",
+            "entity": "yunhujiao_price"
+          }
+        ],
+        "text": "云呼叫多少钱啊"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "价钱",
+            "entity": "yunhujiao_price"
+          }
+        ],
+        "text": "价钱怎么算"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "你们",
+            "entity": "yunhujiao_person"
+          }
+        ],
+        "text": "你们这个产品怎么收费的"
+      },
+      {
+        "intent": "intent_5876",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "优惠",
+            "entity": "yunhujiao_rebate"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "政策",
+            "entity": "yunhujiao_rebate"
+          }
+        ],
+        "text": "云呼叫有什么优惠政策"
+      },
+      {
+        "intent": "intent_5876",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "优惠",
+            "entity": "yunhujiao_rebate"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "政策",
+            "entity": "yunhujiao_rebate"
+          }
+        ],
+        "text": "什么优惠政策"
+      },
+      {
+        "intent": "intent_5876",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "优惠",
+            "entity": "yunhujiao_rebate"
+          }
+        ],
+        "text": "有什么优惠"
+      },
+      {
+        "intent": "intent_5876",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "便宜",
+            "entity": "yunhujiao_rebate"
+          }
+        ],
+        "text": "能便宜点吗"
+      },
+      {
+        "intent": "intent_5876",
+        "entities": [
+          {
+            "start": 1,
+            "end": 2,
+            "value": "贵",
+            "entity": "yunhujiao_price"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "便宜",
+            "entity": "yunhujiao_rebate"
+          }
+        ],
+        "text": "太贵了,便宜点可以商量吗"
+      },
+      {
+        "intent": "intent_5876",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "价钱",
+            "entity": "yunhujiao_price"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "便宜",
+            "entity": "yunhujiao_rebate"
+          }
+        ],
+        "text": "价钱便宜点呗"
+      },
+      {
+        "intent": "intent_5876",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "贵",
+            "entity": "yunhujiao_price"
+          }
+        ],
+        "text": "有点贵啊"
+      },
+      {
+        "intent": "intent_5876",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "你们",
+            "entity": "yunhujiao_person"
+          },
+          {
+            "start": 5,
+            "end": 6,
+            "value": "贵",
+            "entity": "yunhujiao_price"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "便宜",
+            "entity": "yunhujiao_rebate"
+          }
+        ],
+        "text": "你们这有点贵啊,便宜点"
+      },
+      {
+        "intent": "intent_5877",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "云呼叫产品是否提供试用"
+      },
+      {
+        "intent": "intent_5877",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "云呼叫产品是否提供试用"
+      },
+      {
+        "intent": "intent_5877",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "能试用一下吗"
+      },
+      {
+        "intent": "intent_5877",
+        "entities": [
+          {
+            "start": 2,
+            "end": 3,
+            "value": "用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "简单用一下可以吗"
+      },
+      {
+        "intent": "intent_5877",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "怎么试用啊"
+      },
+      {
+        "intent": "intent_5877",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "使用",
+            "entity": "yunhujiao_try"
+          },
+          {
+            "start": 11,
+            "end": 13,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "我想使用一下，可以提供试用么"
+      },
+      {
+        "intent": "intent_5878",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 9,
+            "end": 11,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "云呼叫产品怎么申请试用"
+      },
+      {
+        "intent": "intent_5878",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "如何申请试用"
+      },
+      {
+        "intent": "intent_5878",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          },
+          {
+            "start": 16,
+            "end": 18,
+            "value": "条件",
+            "entity": "yunhujiao_condition"
+          }
+        ],
+        "text": "申请试用都需要什么，试用要有哪些条件"
+      },
+      {
+        "intent": "intent_5878",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "准备",
+            "entity": "yunhujiao_prepare"
+          }
+        ],
+        "text": "试用我要准备什么"
+      },
+      {
+        "intent": "intent_5878",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          },
+          {
+            "start": 4,
+            "end": 6,
+            "value": "操作",
+            "entity": "yunhujiao_do"
+          }
+        ],
+        "text": "试用怎么操作啊"
+      },
+      {
+        "intent": "intent_5878",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "试用需要提交什么啊"
+      },
+      {
+        "intent": "intent_5878",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "材料",
+            "entity": "yunhujiao_prepare"
+          }
+        ],
+        "text": "试用需要什么材料"
+      },
+      {
+        "intent": "intent_5878",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "直接就能试用吗"
+      },
+      {
+        "intent": "intent_5878",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "试用",
+            "entity": "yunhujiao_try"
+          }
+        ],
+        "text": "怎么申请试用"
+      },
+      {
+        "intent": "intent_5879",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "软电话",
+            "entity": "yunhujiao_softcall"
+          }
+        ],
+        "text": "可以使用软电话吗?"
+      },
+      {
+        "intent": "intent_5879",
+        "entities": [
+          {
+            "start": 4,
+            "end": 7,
+            "value": "软电话",
+            "entity": "yunhujiao_softcall"
+          }
+        ],
+        "text": "可以使用软电话么"
+      },
+      {
+        "intent": "intent_5879",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "手机",
+            "entity": "yunhujiao_call"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "座机",
+            "entity": "yunhujiao_softcall"
+          },
+          {
+            "start": 15,
+            "end": 18,
+            "value": "软电话",
+            "entity": "yunhujiao_softcall"
+          }
+        ],
+        "text": "我不想使用手机和座机，可以使用软电话吗？"
+      },
+      {
+        "intent": "intent_5879",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "IP电话",
+            "entity": "yunhujiao_softcall"
+          }
+        ],
+        "text": "IP电话怎么用"
+      },
+      {
+        "intent": "intent_5879",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "软电话",
+            "entity": "yunhujiao_softcall"
+          }
+        ],
+        "text": "软电话能用吗"
+      },
+      {
+        "intent": "intent_5879",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "ip",
+            "entity": "yunhujiao_softcall"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "方式",
+            "entity": "yunhujiao_method"
+          }
+        ],
+        "text": "ip的方式可以吗"
+      },
+      {
+        "intent": "intent_5879",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "IP",
+            "entity": "yunhujiao_softcall"
+          },
+          {
+            "start": 2,
+            "end": 4,
+            "value": "电话",
+            "entity": "yunhujiao_call"
+          }
+        ],
+        "text": "IP电话能用吗"
+      },
+      {
+        "intent": "intent_5879",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "ip",
+            "entity": "yunhujiao_softcall"
+          }
+        ],
+        "text": "ip的可以吗"
+      },
+      {
+        "intent": "intent_5880",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "软电话",
+            "entity": "yunhujiao_softcall"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "条件",
+            "entity": "yunhujiao_condition"
+          }
+        ],
+        "text": "使用软电话有什么条件"
+      },
+      {
+        "intent": "intent_5880",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "软电话",
+            "entity": "yunhujiao_softcall"
+          },
+          {
+            "start": 8,
+            "end": 10,
+            "value": "条件",
+            "entity": "yunhujiao_condition"
+          }
+        ],
+        "text": "使用软电话有什么条件"
+      },
+      {
+        "intent": "intent_5880",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "软电话",
+            "entity": "yunhujiao_softcall"
+          },
+          {
+            "start": 9,
+            "end": 10,
+            "value": "用",
+            "entity": "yunhujiao_do"
+          }
+        ],
+        "text": "软电话直接安上就能用吗"
+      },
+      {
+        "intent": "intent_5880",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "软电话",
+            "entity": "yunhujiao_softcall"
+          },
+          {
+            "start": 7,
+            "end": 8,
+            "value": "用",
+            "entity": "yunhujiao_do"
+          }
+        ],
+        "text": "软电话直接就能用吗"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 10,
+            "end": 12,
+            "value": "功能",
+            "entity": "yunhujiao_function"
+          }
+        ],
+        "text": "云呼叫产品有哪些具体功能"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "特色",
+            "entity": "yunhujiao_feature"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "功能",
+            "entity": "yunhujiao_function"
+          }
+        ],
+        "text": "最有特色的功能是什么"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "功能",
+            "entity": "yunhujiao_function"
+          }
+        ],
+        "text": "功能都有哪些"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "功能",
+            "entity": "yunhujiao_function"
+          }
+        ],
+        "text": "有特殊的功能吗"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "系统",
+            "entity": "yunhujiao_system"
+          },
+          {
+            "start": 5,
+            "end": 7,
+            "value": "长处",
+            "entity": "yunhujiao_rebate"
+          }
+        ],
+        "text": "系统有什么长处吗"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "功能",
+            "entity": "yunhujiao_function"
+          }
+        ],
+        "text": "功能都有什么"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "功能",
+            "entity": "yunhujiao_function"
+          }
+        ],
+        "text": "有哪些功能啊"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 6,
+            "end": 8,
+            "value": "功能",
+            "entity": "yunhujiao_condition"
+          }
+        ],
+        "text": "介绍一下产品功能吧"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "介绍一下产品"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "功能",
+            "entity": "yunhujiao_function"
+          },
+          {
+            "start": 0,
+            "end": 2,
+            "value": "你们",
+            "entity": "yunhujiao_person"
+          }
+        ],
+        "text": "你们这个都有什么功能啊"
+      },
+      {
+        "intent": "intent_5881",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "功能",
+            "entity": "yunhujiao_function"
+          }
+        ],
+        "text": "还有什么其他功能啊"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "价位",
+            "entity": "yunhujiao_price"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "云呼叫产品是啥价位？"
+      },
+      {
+        "intent": "intent_5875",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "价格",
+            "entity": "yunhujiao_price"
+          },
+          {
+            "start": 0,
+            "end": 3,
+            "value": "云呼叫",
+            "entity": "yunhujiao_product"
+          },
+          {
+            "start": 3,
+            "end": 5,
+            "value": "产品",
+            "entity": "yunhujiao_product"
+          }
+        ],
+        "text": "云呼叫产品是啥价格"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

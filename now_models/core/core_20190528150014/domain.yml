@@ -1,0 +1,307 @@
+%YAML 1.1
+---
+actions:
+- utter_task_id_1
+- utter_task_id_2
+- utter_task_id_3
+- utter_task_id_4
+- utter_task_id_5
+- utter_task_id_6
+- utter_task_id_7
+- utter_task_id_8
+- utter_task_id_9
+- utter_task_id_10
+- utter_task_id_11
+- utter_task_id_12
+- utter_kuandai_huifang_huanying
+- utter_kuandai_huifang
+- utter_kuandai_huifang_deny
+- utter_kuandai_huifang1
+- utter_kuandai_huifang2
+- utter_kuandai_huifang3
+- utter_kuandai_jieshu_confirm
+- utter_kuandai_jieshu_not_satisfied
+- utter_sifayuanzhu
+- utter_task_sifayuanzhu1
+- utter_task_sifayuanzhu2
+- utter_task_sifayuanzhu3
+- utter_task_sifayuanzhu4
+- utter_task_zhiyuanzhe
+- utter_task_jiayou1
+- utter_task_jiayou2
+- utter_task_jiayou3
+- utter_task_jiayou4
+- action_oil_number
+- action_check_name
+- action_fill_area
+- utter_task_jiehaizi
+- utter_task_jiehaizi1
+- utter_task_jiehaizi2
+- utter_task_jiehaizi3
+- utter_task_jiehaizi4
+- utter_task_jiehaizi5
+- utter_task_topeople
+- utter_ask_weather
+- utter_ask_morehelp
+- utter_ask_time
+- utter_end
+- utter_askfor_name
+- utter_greet
+- utter_goodbye
+- utter_thanks
+- utter_wait
+- utter_reply
+- utter_re_input
+- utter_input_number
+- utter_no_answer
+- utter_default
+- action_check_tel
+- action_check_weather
+- action_fillin_tel
+config:
+  store_entities_as_slots: true
+entities:
+- task_idcard
+- task_check_city
+- task_item
+- task_time
+- fillin_tel
+- task_youhao
+- task_xingming
+- task_area
+forms: []
+intents:
+- task_stop_talks:
+    use_entities: true
+- task_require_1:
+    use_entities: true
+- task_require_3:
+    use_entities: true
+- task_require_4:
+    use_entities: true
+- task_require_5:
+    use_entities: true
+- task_require_id:
+    use_entities: true
+- task_require_TV:
+    use_entities: true
+- task_require_useless:
+    use_entities: true
+- task_require_signal:
+    use_entities: true
+- task_require_no_phone:
+    use_entities: true
+- task_fillin_tel:
+    use_entities: true
+- task_check_weather_1:
+    use_entities: true
+- task_check_weather_2:
+    use_entities: true
+- request_search:
+    use_entities: true
+- inform_time:
+    use_entities: true
+- task_kouling_huifang:
+    use_entities: true
+- task_kuandai_hao:
+    use_entities: true
+- task_kuandai_buhao:
+    use_entities: true
+- task_kuandai_manyi:
+    use_entities: true
+- task_kuandai_bumanyi:
+    use_entities: true
+- task_kuandai_lianxi:
+    use_entities: true
+- task_kuandai_meilianxi:
+    use_entities: true
+- do_not_know:
+    use_entities: true
+- task_kuandai_buzaijia:
+    use_entities: true
+- task_kouling_sifayuanzhu:
+    use_entities: true
+- task_sifayuanzhu1:
+    use_entities: true
+- task_sifayuanzhu2:
+    use_entities: true
+- task_sifayuanzhu3:
+    use_entities: true
+- task_sifayuanzhu4:
+    use_entities: true
+- task_kouling_zhiyuanzhe:
+    use_entities: true
+- task_jiayou1:
+    use_entities: true
+- task_jiayou2:
+    use_entities: true
+- task_jiayou3:
+    use_entities: true
+- task_jiayou4:
+    use_entities: true
+- task_to_people:
+    use_entities: true
+- task_jiehaizi:
+    use_entities: true
+- task_jiehaizi1:
+    use_entities: true
+- task_jiehaizi2:
+    use_entities: true
+- task_jiehaizi3:
+    use_entities: true
+- task_jiehaizi4:
+    use_entities: true
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- thanks:
+    use_entities: true
+- deny:
+    use_entities: true
+- not_is:
+    use_entities: true
+- confirm:
+    use_entities: true
+- unknown_intent:
+    use_entities: true
+slots:
+  fillin_tel:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  task_area:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  task_check_city:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  task_idcard:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  task_item:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  task_time:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  task_xingming:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+  task_youhao:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_morehelp:
+  - text: 还有什么可以帮您的吗？
+  - text: 请问还有什么能够帮住您的吗？
+  - text: 请问还有什么可以帮助您的吗？
+  utter_ask_time:
+  - text: 您想查询哪个月的消费
+  utter_ask_weather:
+  - text: 请问您要查哪里的天气
+  utter_askfor_name:
+  - text: 请您发送您的登记姓名。
+  utter_default:
+  - text: 我还比较小
+  utter_end:
+  - text: 工作人员24小时内上门维修，请您注意。
+  utter_goodbye:
+  - text: 再见,为您服务很开心，
+  utter_greet:
+  - text: 您好，很高兴为您服务，有什么可以帮助您的吗？
+  utter_input_number:
+  - text: 请输入号码，按井号键确认
+  utter_kuandai_huifang:
+  - text: 您好！张老师，打扰一下做个回访。
+  utter_kuandai_huifang1:
+  - text: 请问您家的宽带信号修好了吗？
+  utter_kuandai_huifang2:
+  - text: 请问工作人员是在您报销后30分钟之内和您联系并在约定时间上门服务的吗？
+  utter_kuandai_huifang3:
+  - text: 请问您对工作人员的服务还满意吗？
+  utter_kuandai_huifang_deny:
+  - text: 非常抱歉打扰您了，也希望您能够多多关注河北广电，祝您生活愉快。
+  utter_kuandai_huifang_huanying:
+  - text: 您好，我是河北广电回访人员，请问是张老师家吗？
+  utter_kuandai_jieshu_confirm:
+  - text: 非常感谢您对我们工作的支持，以后如有问题，您可以拨打客服电话96888或关注微信公众号“河北广电96888”随时联系我们，祝您生活愉快，再见！
+  utter_kuandai_jieshu_not_satisfied:
+  - text: 非常抱歉，给您带来了不便，您反映的问题我详细记录下来了，我们会上报领导并尽快处理，再见。
+  utter_no_answer:
+  - text: 关于这个问题，我将为您转接人工客服。
+  utter_re_input:
+  - text: 请您重新输入信息，按井号键确认
+  utter_reply:
+  - text: 您好，您一月份共消费二十八元。
+  utter_sifayuanzhu:
+  - text: 您好，河北司法援助热线，有什么可以帮助您？
+  utter_task_id_1:
+  - text: 您好，请提供您芯片正面的18位智能卡号，方便我查询一下。
+  utter_task_id_10:
+  - text: 请您描述一下具体情况
+  utter_task_id_11:
+  - text: 那我帮您登记，请您提供已登记的电话号码，以便工作人员上门维修。
+  utter_task_id_12:
+  - text: 请问是住在黎平县德化乡什里村10组杨根作用户吗
+  utter_task_id_2:
+  - text: 请问是贵州省黔东南苗族侗族自治州黎平县德化乡什里村10组，杨根作客户吗？
+  utter_task_id_3:
+  - text: 你好，续费单宽带是295元/年30M。在自助业务--充值缴费，可以自行办理。
+  utter_task_id_4:
+  - text: 最低缴费50元/月。
+  utter_task_id_5:
+  - text: 对不起，我可以为您转接人工客服，或者您在网站——业务办理自行办理！
+  utter_task_id_6:
+  - text: 暂时不支持电话号码查询，请提供您的芯片正面的18位智能卡号，方便我查询一下
+  utter_task_id_7:
+  - text: 您可以重新启动一下电源和电视机。
+  utter_task_id_8:
+  - text: 请您提供正确的芯片正面的18位智能卡号或开户电话
+  utter_task_id_9:
+  - text: 对不起，系统中没有您的信息。
+  utter_task_jiayou1:
+  - text: 请问您的车加几号油?
+  utter_task_jiayou2:
+  - text: 您贵姓？
+  utter_task_jiayou3:
+  - text: 好的，请问您停在哪里了？
+  utter_task_jiayou4:
+  - text: 好的，我们登记了您的需求，志愿者会联系您，马上为您服务。
+  utter_task_jiehaizi:
+  - text: 好的，收集下您孩子信息，请您配合。
+  utter_task_jiehaizi1:
+  - text: 请问您的孩子叫什么名字？
+  utter_task_jiehaizi2:
+  - text: 请问您孩子是哪个学校，年级
+  utter_task_jiehaizi3:
+  - text: 请问孩子的放学时间是什么时候？
+  utter_task_jiehaizi4:
+  - text: 请问需要把孩子送到哪里？
+  utter_task_jiehaizi5:
+  - text: 好的，已经登记，稍后会有志愿者跟您联系确认，为您准时服务
+  utter_task_sifayuanzhu1:
+  - text: 这个案件归属于民间借贷纠纷，您可向被告所在地地方法院起诉，您需要准备内容如下：         1、原告的身份证及复印件         2、起诉状，起诉状数量为被告人加二份，例如一个被告人，需要三份起诉状
+              3、能够证明借贷事实的证据，例如借条、借贷短信、转账截图、汇款凭证等         4、准确的被告人信息，包含姓名、居住地址、联系电话等，如果有身份证号码，也可以提供
+              注意，民间借贷的诉讼时效为三年，如果约定了还款时间，则从还款日的次日开始计算,具体内容比较复杂，需要向律师咨询
+  utter_task_sifayuanzhu2:
+  - text: 您好，债权人必须先起诉债务人，如果债务人无法履行，担保人承担连带责任，也可以再起诉担保人。
+  utter_task_sifayuanzhu3:
+  - text: 能够证明借贷事实的证据，例如借条、借贷短信、转账截图、汇款凭证等，音视频资料需刻录光盘，提供原始证据及复印件
+  utter_task_sifayuanzhu4:
+  - text: 起诉状内容有标准的规范，可在河北法院网站www.hebeicourt.gov.cn下载，也可在法院接待厅领取表格
+  utter_task_topeople:
+  - text: 正在转接中，请稍等！
+  utter_task_zhiyuanzhe:
+  - text: 您好，这里是邯郸志愿者服务中心，请问您需要什么帮助？
+  utter_thanks:
+  - text: 不用谢
+  utter_wait:
+  - text: 正在查询，请稍候

@@ -1,0 +1,14 @@
+language: "zh"
+
+pipeline:
+ - name: "tokenizer_jieba"
+   dictionary_path: 'training/dictionary'
+ - name: "ner_crf"
+ - name: "jieba_pseg_extractor"
+   part_of_speech: ["nr","ns","nt","t"]
+ - name: "intent_featurizer_count_vectors"
+   OOV_token: oov
+   token_pattern: '(?u)\b\w+\b'
+ - name: "intent_classifier_tensorflow_embedding"
+
+

@@ -1,0 +1,2509 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "task_require_1",
+        "text": "宽带怎么扣费的？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带是怎么扣费的？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带是如何扣费的？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带如何扣费的？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带怎么交钱？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带要怎么交钱？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带扣费方式？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带如何交钱？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带花费如何计算？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带的花费怎么算？"
+      },
+      {
+        "intent": "task_require_1",
+        "text": "宽带是怎么算钱的？"
+      },
+      {
+        "intent": "task_require_id",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "110227199601173810",
+            "entity": "task_idcard"
+          }
+        ],
+        "text": "110227199601173810"
+      },
+      {
+        "intent": "task_require_id",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "110227199601173811",
+            "entity": "task_idcard"
+          }
+        ],
+        "text": "110227199601173811"
+      },
+      {
+        "intent": "task_require_id",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "110227199601173812",
+            "entity": "task_idcard"
+          }
+        ],
+        "text": "110227199601173812"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "需要缴费多少才能用？（缴费最小单元）"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "需要花多少钱才能用？"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "交多少钱才能用？"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "花多少钱才能用？"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "要缴多少钱能用？"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "想用的话要缴费多少？"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "缴多少钱之后可以用？"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "想用要花多少钱？"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "想用的话的花费是多少？"
+      },
+      {
+        "intent": "task_require_3",
+        "text": "想用要交多少钱？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "你可以帮忙办理吗？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "你能帮忙办理吗？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "你能给办理吗？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "您可以帮忙办理吗？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "您能帮忙办理吗？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "您能给办理吗？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "你可以帮个忙,给办理一下吗？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "你能帮下忙,给办理下吗？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "你可不可以帮忙办理一下？"
+      },
+      {
+        "intent": "task_require_4",
+        "text": "您给帮忙办理下可以吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "电话号码可以吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "电话号可以吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "不可以用电话吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "电话号码可以吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "不使用电话吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "不想用电话号码可以吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "不可以用电话吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "电话可以吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "电话号码行吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "电话行吗？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "电话好不好？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "电话行不行呢？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "电话可不可以呢？"
+      },
+      {
+        "intent": "task_require_5",
+        "text": "用电话号码可不可以呢？"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "重启过了，不管用"
+      },
+      {
+        "intent": "task_fillin_tel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "15166515951",
+            "entity": "fillin_tel"
+          }
+        ],
+        "text": "15166515951"
+      },
+      {
+        "intent": "task_fillin_tel",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "15166515951",
+            "entity": "fillin_tel"
+          }
+        ],
+        "text": "你试试15166515951"
+      },
+      {
+        "intent": "task_fillin_tel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "15166517777",
+            "entity": "fillin_tel"
+          }
+        ],
+        "text": "15166517777"
+      },
+      {
+        "intent": "task_fillin_tel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "15166516666",
+            "entity": "fillin_tel"
+          }
+        ],
+        "text": "15166516666"
+      },
+      {
+        "intent": "task_fillin_tel",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "15166518888",
+            "entity": "fillin_tel"
+          }
+        ],
+        "text": "15166518888"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "我想查天气"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "我想了解天气情况"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "我想知道天气情况"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "我想知道天气怎么样"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "我要知道天气如何"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "我要知道天气怎样"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "我要知道天气好不好"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "我了解一下天气"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "我要了解天气情况"
+      },
+      {
+        "intent": "task_check_weather_1",
+        "text": "天气如何,我想要知道"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "北京",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "北京"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "北京",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "北京的"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "北京",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "查北京的吧"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "北京",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "北京的天气"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "北京",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "我想查北京的天气"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "天津",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "天津"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "天津",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "天津的"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "天津",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "查天津的吧"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "天津",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "天津的天气"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "天津",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "我想查天津的天气"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "石家庄",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "石家庄"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "石家庄",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "石家庄的"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 1,
+            "end": 4,
+            "value": "石家庄",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "查石家庄的吧"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "石家庄",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "石家庄的天气"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "石家庄",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "我想查石家庄的天气"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "武汉",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "武汉"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "武汉",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "武汉的"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "武汉",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "查武汉的吧"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "武汉",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "武汉的天气"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "武汉",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "我想查武汉的天气"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "太原",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "太原"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "太原",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "太原的"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "太原",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "查太原的吧"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "太原",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "太原的天气"
+      },
+      {
+        "intent": "task_check_weather_2",
+        "entities": [
+          {
+            "start": 3,
+            "end": 5,
+            "value": "太原",
+            "entity": "task_check_city"
+          }
+        ],
+        "text": "我想查太原的天气"
+      },
+      {
+        "intent": "task_require_TV",
+        "text": "电视有问题"
+      },
+      {
+        "intent": "task_require_TV",
+        "text": "电视坏了"
+      },
+      {
+        "intent": "task_require_TV",
+        "text": "我家电视不好用"
+      },
+      {
+        "intent": "task_require_TV",
+        "text": "电视不行了"
+      },
+      {
+        "intent": "task_require_TV",
+        "text": "电视报修"
+      },
+      {
+        "intent": "task_require_TV",
+        "text": "我们家的电视看不了了"
+      },
+      {
+        "intent": "task_require_TV",
+        "text": "我这个电视又有问题了"
+      },
+      {
+        "intent": "task_require_TV",
+        "text": "电视出毛病了"
+      },
+      {
+        "intent": "task_require_TV",
+        "text": "电视出故障了"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "我的电视怎么没有信号"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "没有信号"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "就是没有信号"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "显示没有信号"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "看着看着就不行了，我也不知道咋回事"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "我也不知道怎么回事"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "没信号"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "为什么没信号"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "电视没信号了"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "信号差"
+      },
+      {
+        "intent": "task_require_signal",
+        "text": "信号一会有,一会没有"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "重启过了，不管用"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "试过了，不管用"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "不好使啊"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "不管用"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "没用"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "试了"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "没效果"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "效果不明显"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "已经试过了"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "不行"
+      },
+      {
+        "intent": "task_require_useless",
+        "text": "试了呀,没用"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "电话停机了"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "电话信号不好"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "我电话打不通"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "我没有电话号码"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "没电话"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "电话欠费了"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "电话号码注销了"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "电话号注销了"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "电话暂时无法使用"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "我没有电话"
+      },
+      {
+        "intent": "task_require_no_phone",
+        "text": "电话不能使用了"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "我没有听清，再重复一次"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "对不起，我没有听清，可以再说一次吗"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "对不起，没有听清，可以再说一次吗"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "我没有仔细听，你能再说一次吗"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "我没有仔细听，您能再说一次吗"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "刚没听，能再说一次吗"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "刚才走神了，能再说一次吗"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "您刚才说的啥？可以再说一次吗"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "不好意思，您能再说一次吗"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "不好意思，你能再说一次吗"
+      },
+      {
+        "intent": "task_askfor_again",
+        "text": "能不能麻烦您再说一次"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "你能给我看下我消费多少了吗"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "查询消费金额"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "我消费有多少了"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "我要查看消费已经到多少了"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "我要查有多少消费了"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 4,
+            "end": 6,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "我想看我消费了多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 8,
+            "end": 10,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "我想查看一下我的消费金额"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "我想问一下我消费了多少钱"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 7,
+            "end": 9,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "我想问一下我是消费了多少"
+      },
+      {
+        "intent": "request_search",
+        "entities": [
+          {
+            "start": 6,
+            "end": 8,
+            "value": "消费",
+            "entity": "task_item"
+          }
+        ],
+        "text": "你给我说我的消费多少"
+      },
+      {
+        "intent": "inform_task_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一月",
+            "entity": "task_time"
+          }
+        ],
+        "text": "一月"
+      },
+      {
+        "intent": "inform_task_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一月",
+            "entity": "task_time"
+          }
+        ],
+        "text": "一月的"
+      },
+      {
+        "intent": "inform_task_time",
+        "entities": [
+          {
+            "start": 1,
+            "end": 3,
+            "value": "一月",
+            "entity": "task_time"
+          }
+        ],
+        "text": "是一月的"
+      },
+      {
+        "intent": "inform_task_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "一月",
+            "entity": "task_time"
+          }
+        ],
+        "text": "一月"
+      },
+      {
+        "intent": "inform_task_time",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "一月份",
+            "entity": "task_time"
+          }
+        ],
+        "text": "一月份"
+      },
+      {
+        "intent": "task_kouling_huifang",
+        "text": "宽带故障回访"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "好了"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "修好了"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "已经修好了"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "修理好了"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "没问题了"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "OK了"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "有人来修好了"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "好了吧"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "可以了"
+      },
+      {
+        "intent": "task_kuandai_hao",
+        "text": "已经恢复了"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "没好"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "没修好"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "没有好"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "没有呀"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "没有修好呀"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "没"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "还是不行"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "还是不行"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "还是没修好"
+      },
+      {
+        "intent": "task_kuandai_buhao",
+        "text": "没有"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "满意"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "很满意"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "比较满意"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "还行"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "还行吧"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "挺好的"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "还可以吧"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "挺好"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "挺热情的"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "态度挺好的"
+      },
+      {
+        "intent": "task_kuandai_manyi",
+        "text": "还不错"
+      },
+      {
+        "intent": "task_kuandai_bumanyi",
+        "text": "不满意"
+      },
+      {
+        "intent": "task_kuandai_bumanyi",
+        "text": "不太满意"
+      },
+      {
+        "intent": "task_kuandai_bumanyi",
+        "text": "我不满意"
+      },
+      {
+        "intent": "task_kuandai_bumanyi",
+        "text": "一点也不满意"
+      },
+      {
+        "intent": "task_kuandai_bumanyi",
+        "text": "态度挺差，不好"
+      },
+      {
+        "intent": "task_kuandai_bumanyi",
+        "text": "也就那样吧"
+      },
+      {
+        "intent": "task_kuandai_bumanyi",
+        "text": "太差了，不好"
+      },
+      {
+        "intent": "task_kuandai_bumanyi",
+        "text": "真的很差劲"
+      },
+      {
+        "intent": "task_kuandai_lianxi",
+        "text": "联系了"
+      },
+      {
+        "intent": "task_kuandai_lianxi",
+        "text": "联系过"
+      },
+      {
+        "intent": "task_kuandai_lianxi",
+        "text": "有联系"
+      },
+      {
+        "intent": "task_kuandai_lianxi",
+        "text": "确实有联系"
+      },
+      {
+        "intent": "task_kuandai_lianxi",
+        "text": "恩，联系了"
+      },
+      {
+        "intent": "task_kuandai_lianxi",
+        "text": "是和我联系了"
+      },
+      {
+        "intent": "task_kuandai_lianxi",
+        "text": "没几分钟就联系我了"
+      },
+      {
+        "intent": "task_kuandai_meilianxi",
+        "text": "没联系"
+      },
+      {
+        "intent": "task_kuandai_meilianxi",
+        "text": "没人和我联系"
+      },
+      {
+        "intent": "task_kuandai_meilianxi",
+        "text": "没人联系我"
+      },
+      {
+        "intent": "task_kuandai_meilianxi",
+        "text": "没人跟我打电话"
+      },
+      {
+        "intent": "task_kuandai_meilianxi",
+        "text": "没人联系"
+      },
+      {
+        "intent": "task_kuandai_meilianxi",
+        "text": "都没有联系我"
+      },
+      {
+        "intent": "task_kuandai_meilianxi",
+        "text": "电话都没接到"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "不在家"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我有事不在家"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我不在家"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我出去了"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我出差了"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我买菜去了"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我上班去了"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我在上班"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我干活去了"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我没在家"
+      },
+      {
+        "intent": "task_kuandai_buzaijia",
+        "text": "我在外边"
+      },
+      {
+        "intent": "do_not_know",
+        "text": "不知道"
+      },
+      {
+        "intent": "do_not_know",
+        "text": "不清楚"
+      },
+      {
+        "intent": "do_not_know",
+        "text": "我不在家不知道"
+      },
+      {
+        "intent": "do_not_know",
+        "text": "我不清楚这件事"
+      },
+      {
+        "intent": "do_not_know",
+        "text": "我不清楚这件事"
+      },
+      {
+        "intent": "do_not_know",
+        "text": "没来吧，我不知道"
+      },
+      {
+        "intent": "do_not_know",
+        "text": "不懂你在说啥，不知道"
+      },
+      {
+        "intent": "do_not_know",
+        "text": "应该没有吧，不清楚"
+      },
+      {
+        "intent": "task_kouling_sifayuanzhu",
+        "text": "司法援助"
+      },
+      {
+        "intent": "task_sifayuanzhu1",
+        "text": "XXX借了我钱，好长时间一直不还，我想起诉"
+      },
+      {
+        "intent": "task_sifayuanzhu1",
+        "text": "您好，XXX在18年从我这里借了五千元钱，当时说借半年归还，到现在还没有还给我，我想起诉，需要哪些手续"
+      },
+      {
+        "intent": "task_sifayuanzhu1",
+        "text": "XXX欠我钱不还，我想起诉"
+      },
+      {
+        "intent": "task_sifayuanzhu1",
+        "text": "XXX借了我五千元钱，到现在还没有还给我，说好的半年，我该怎么办"
+      },
+      {
+        "intent": "task_sifayuanzhu2",
+        "text": "被告人必须是借款人吗？还是他家人也可以？"
+      },
+      {
+        "intent": "task_sifayuanzhu2",
+        "text": "借款人现在外地打工，我可以起诉他的家人吗？"
+      },
+      {
+        "intent": "task_sifayuanzhu2",
+        "text": "借款人找不到了，我能起诉他的家人吗？"
+      },
+      {
+        "intent": "task_sifayuanzhu3",
+        "text": "刚才您说提供什么证据？"
+      },
+      {
+        "intent": "task_sifayuanzhu3",
+        "text": "需要准备哪些证据？"
+      },
+      {
+        "intent": "task_sifayuanzhu3",
+        "text": "需要提供什么证据？"
+      },
+      {
+        "intent": "task_sifayuanzhu4",
+        "text": "起诉状怎么写？"
+      },
+      {
+        "intent": "task_sifayuanzhu4",
+        "text": "起诉状有范本吗？"
+      },
+      {
+        "intent": "task_sifayuanzhu4",
+        "text": "起诉状谁来写？"
+      },
+      {
+        "intent": "task_kouling_zhiyuanzhe",
+        "text": "志愿者服务"
+      },
+      {
+        "intent": "task_jiayou1",
+        "text": "我的车没油了，能帮我送点油吗？"
+      },
+      {
+        "intent": "task_jiayou1",
+        "text": "我的车没油了"
+      },
+      {
+        "intent": "task_jiayou1",
+        "text": "我的汽车没有油了"
+      },
+      {
+        "intent": "task_jiayou1",
+        "text": "我的车抛锚了"
+      },
+      {
+        "intent": "task_jiayou1",
+        "text": "我没油了"
+      },
+      {
+        "intent": "task_jiayou1",
+        "text": "我的车没油了，能帮我送点油吗？"
+      },
+      {
+        "intent": "task_jiayou1",
+        "text": "车没油了"
+      },
+      {
+        "intent": "task_jiayou1",
+        "text": "我的车没汽油了"
+      },
+      {
+        "intent": "task_jiayou1",
+        "text": "我的车没燃油了"
+      },
+      {
+        "intent": "task_jiayou2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "九五",
+            "entity": "task_youhao"
+          }
+        ],
+        "text": "九五"
+      },
+      {
+        "intent": "task_jiayou2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "95号",
+            "entity": "task_youhao"
+          }
+        ],
+        "text": "95号油"
+      },
+      {
+        "intent": "task_jiayou2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "95号",
+            "entity": "task_youhao"
+          }
+        ],
+        "text": "95号"
+      },
+      {
+        "intent": "task_jiayou2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "95号",
+            "entity": "task_youhao"
+          }
+        ],
+        "text": "95号的"
+      },
+      {
+        "intent": "task_jiayou2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "95号",
+            "entity": "task_youhao"
+          }
+        ],
+        "text": "95号汽油"
+      },
+      {
+        "intent": "task_jiayou2",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "95号",
+            "entity": "task_youhao"
+          }
+        ],
+        "text": "95号的油"
+      },
+      {
+        "intent": "task_jiayou3",
+        "text": "姓李"
+      },
+      {
+        "intent": "task_jiayou3",
+        "text": "我姓李"
+      },
+      {
+        "intent": "task_jiayou3",
+        "text": "免贵姓李"
+      },
+      {
+        "intent": "task_jiayou3",
+        "text": "李"
+      },
+      {
+        "intent": "task_jiayou4",
+        "entities": [
+          {
+            "start": 3,
+            "end": 14,
+            "value": "邯郸丛台路399号门口",
+            "entity": "task_area"
+          }
+        ],
+        "text": "停在了邯郸丛台路399号门口"
+      },
+      {
+        "intent": "task_jiayou4",
+        "entities": [
+          {
+            "start": 3,
+            "end": 8,
+            "value": "光明桥街道",
+            "entity": "task_area"
+          }
+        ],
+        "text": "停在了光明桥街道"
+      },
+      {
+        "intent": "task_jiayou4",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "光明桥",
+            "entity": "task_area"
+          }
+        ],
+        "text": "停在了光明桥"
+      },
+      {
+        "intent": "task_jiayou4",
+        "entities": [
+          {
+            "start": 3,
+            "end": 7,
+            "value": "龙湖公园",
+            "entity": "task_area"
+          }
+        ],
+        "text": "停在了龙湖公园"
+      },
+      {
+        "intent": "task_jiayou4",
+        "entities": [
+          {
+            "start": 3,
+            "end": 9,
+            "value": "龙湖公园附近",
+            "entity": "task_area"
+          }
+        ],
+        "text": "停在了龙湖公园附近"
+      },
+      {
+        "intent": "task_jiayou4",
+        "entities": [
+          {
+            "start": 3,
+            "end": 10,
+            "value": "丛台路399号",
+            "entity": "task_area"
+          }
+        ],
+        "text": "停在了丛台路399号"
+      },
+      {
+        "intent": "task_jiayou4",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "杏花村",
+            "entity": "task_area"
+          }
+        ],
+        "text": "停在了杏花村"
+      },
+      {
+        "intent": "task_jiayou4",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "杏花庄",
+            "entity": "task_area"
+          }
+        ],
+        "text": "停在了杏花庄"
+      },
+      {
+        "intent": "task_to_people",
+        "text": "转人工"
+      },
+      {
+        "intent": "task_to_people",
+        "text": "转接人工"
+      },
+      {
+        "intent": "task_to_people",
+        "text": "人工服务"
+      },
+      {
+        "intent": "task_jiehaizi",
+        "text": "我想请人来帮我接孩子放学"
+      },
+      {
+        "intent": "task_jiehaizi",
+        "text": "接孩子放学"
+      },
+      {
+        "intent": "task_jiehaizi",
+        "text": "我想请您帮我接一下孩子"
+      },
+      {
+        "intent": "task_jiehaizi",
+        "text": "没人接孩子，帮我接一下"
+      },
+      {
+        "intent": "task_jiehaizi",
+        "text": "孩子放学没人接，麻烦接一下好么？"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "张小龙",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "张小龙"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "张伟",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "张伟"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 0,
+            "end": 3,
+            "value": "赵婷婷",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "赵婷婷"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "王菲",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "王菲"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 0,
+            "end": 2,
+            "value": "王飞",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "王飞"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "张小龙",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他叫张小龙"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "张伟",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他叫张伟"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "赵婷婷",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他叫赵婷婷"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "王菲",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他叫王菲"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "王飞",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他叫王飞"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "张小龙",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他是张小龙"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "张伟",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他是张伟"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 5,
+            "value": "赵婷婷",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他是赵婷婷"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "王菲",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他是王菲"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 2,
+            "end": 4,
+            "value": "王飞",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他是王飞"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "张小龙",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字是张小龙"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "张伟",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字是张伟"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "赵婷婷",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字是赵婷婷"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "王菲",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字是王菲"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "王飞",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字是王飞"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "张小龙",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字叫张小龙"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "张伟",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字叫张伟"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 8,
+            "value": "赵婷婷",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字叫赵婷婷"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "王菲",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字叫王菲"
+      },
+      {
+        "intent": "task_jiehaizi1",
+        "entities": [
+          {
+            "start": 5,
+            "end": 7,
+            "value": "王飞",
+            "entity": "task_xingming"
+          }
+        ],
+        "text": "他的名字叫王飞"
+      },
+      {
+        "intent": "task_jiehaizi2",
+        "text": "邯郸一中初三四班"
+      },
+      {
+        "intent": "task_jiehaizi2",
+        "text": "邯郸第一中学九年级四班"
+      },
+      {
+        "intent": "task_jiehaizi2",
+        "text": "初三四班，邯郸一中"
+      },
+      {
+        "intent": "task_jiehaizi3",
+        "text": "下午5点"
+      },
+      {
+        "intent": "task_jiehaizi3",
+        "text": "17点"
+      },
+      {
+        "intent": "task_jiehaizi3",
+        "text": "晚上5点"
+      },
+      {
+        "intent": "task_jiehaizi3",
+        "text": "5点左右"
+      },
+      {
+        "intent": "task_jiehaizi3",
+        "text": "下午5点左右"
+      },
+      {
+        "intent": "task_jiehaizi4",
+        "text": "送到单位，河北有线丛台路399号"
+      },
+      {
+        "intent": "task_jiehaizi4",
+        "text": " 送到邯郸广电单位吧，"
+      },
+      {
+        "intent": "task_jiehaizi4",
+        "text": "我单位，河北有线邯郸广电，龙湖公园附近"
+      },
+      {
+        "intent": "task_jiehaizi4",
+        "text": "麻烦送到我公司，龙湖公园附件的邯郸广电"
+      },
+      {
+        "intent": "task_jiehaizi4",
+        "text": "送到公司，丛台路399号"
+      },
+      {
+        "intent": "task_jiehaizi4",
+        "text": "公司附近，邯郸广电，丛台路399号"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "您好"
+      },
+      {
+        "intent": "greet",
+        "text": "您好吗"
+      },
+      {
+        "intent": "greet",
+        "text": "嗨"
+      },
+      {
+        "intent": "greet",
+        "text": "你是谁"
+      },
+      {
+        "intent": "greet",
+        "text": "你谁啊"
+      },
+      {
+        "intent": "greet",
+        "text": "您是"
+      },
+      {
+        "intent": "greet",
+        "text": "你是哪位"
+      },
+      {
+        "intent": "greet",
+        "text": "喂"
+      },
+      {
+        "intent": "greet",
+        "text": "吃饭了吗"
+      },
+      {
+        "intent": "greet",
+        "text": "在吗"
+      },
+      {
+        "intent": "greet",
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "text": "您好"
+      },
+      {
+        "intent": "greet",
+        "text": "您好吗"
+      },
+      {
+        "intent": "greet",
+        "text": "嗨"
+      },
+      {
+        "intent": "greet",
+        "text": "你是谁"
+      },
+      {
+        "intent": "greet",
+        "text": "您是"
+      },
+      {
+        "intent": "greet",
+        "text": "你是哪个"
+      },
+      {
+        "intent": "greet",
+        "text": "喂"
+      },
+      {
+        "intent": "goodbye",
+        "text": "不办了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "好了谢谢再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "好的谢谢再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "没有了，谢谢，再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "没了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "没事了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "不用了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "暂时不用了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "好的没了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "好不用了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "那就这样吧"
+      },
+      {
+        "intent": "goodbye",
+        "text": "清楚了，再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "明白了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "好的，了解了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "就这样吧"
+      },
+      {
+        "intent": "goodbye",
+        "text": "不需要了"
+      },
+      {
+        "intent": "goodbye",
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "回见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "下次见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "拜"
+      },
+      {
+        "intent": "goodbye",
+        "text": "明天见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "下次约"
+      },
+      {
+        "intent": "goodbye",
+        "text": "一会见"
+      },
+      {
+        "intent": "goodbye",
+        "text": "先这样"
+      },
+      {
+        "intent": "goodbye",
+        "text": "今天先到这儿"
+      },
+      {
+        "intent": "goodbye",
+        "text": "很高兴和你说话"
+      },
+      {
+        "intent": "goodbye",
+        "text": "感谢您的致电，再见"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢您"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢你"
+      },
+      {
+        "intent": "thanks",
+        "text": "非常感谢"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢谢啊"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢了"
+      },
+      {
+        "intent": "thanks",
+        "text": "谢啦"
+      },
+      {
+        "intent": "thanks",
+        "text": "三克油"
+      },
+      {
+        "intent": "thanks",
+        "text": "感谢你"
+      },
+      {
+        "intent": "thanks",
+        "text": "感谢感谢,非常感谢"
+      },
+      {
+        "intent": "not_is",
+        "text": "不是"
+      },
+      {
+        "intent": "deny",
+        "text": "不对"
+      },
+      {
+        "intent": "deny",
+        "text": "错了"
+      },
+      {
+        "intent": "deny",
+        "text": "有问题"
+      },
+      {
+        "intent": "deny",
+        "text": "搞错了"
+      },
+      {
+        "intent": "deny",
+        "text": "整错了吧"
+      },
+      {
+        "intent": "deny",
+        "text": "弄错了"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯"
+      },
+      {
+        "intent": "confirm",
+        "text": "对了"
+      },
+      {
+        "intent": "confirm",
+        "text": "嗯呢"
+      },
+      {
+        "intent": "confirm",
+        "text": "恩"
+      },
+      {
+        "intent": "confirm",
+        "text": "对的"
+      },
+      {
+        "intent": "confirm",
+        "text": "对的呢"
+      },
+      {
+        "intent": "confirm",
+        "text": "对的呀"
+      },
+      {
+        "intent": "confirm",
+        "text": "对的鸭"
+      },
+      {
+        "intent": "confirm",
+        "text": "对"
+      },
+      {
+        "intent": "confirm",
+        "text": "对呀"
+      },
+      {
+        "intent": "confirm",
+        "text": "没问题"
+      },
+      {
+        "intent": "confirm",
+        "text": "没错"
+      },
+      {
+        "intent": "confirm",
+        "text": "确认"
+      },
+      {
+        "intent": "confirm",
+        "text": "正确"
+      },
+      {
+        "intent": "confirm",
+        "text": "是的"
+      },
+      {
+        "intent": "confirm",
+        "text": "是"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "="
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "&"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "..."
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "打酱油"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "彩虹屁"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "kguf"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "额"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "契烽吭氯场重"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "|��|"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "@12asss$32"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "GB"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "VS"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "C位"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "啊啊啊啊啊"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "滚"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "是不是傻"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "矮油"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "胖纸"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "大猪蹄子"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "你是魔鬼吗"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "扎心了老铁"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "skr"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "酱紫"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "我的妈呀"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "OMG"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "种草"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "我晕"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "咸鱼"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "cxk"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "虚拟货币"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "鸣人传"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "刀了儿"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "比特币"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "声音"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "尼古拉斯"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "危机"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "打雷"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "暴富"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "千与千寻"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "长胖"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "LOL"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "GG"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "IG"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "家伙"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "+"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "大佬"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "亚子"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "物语"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "哎"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "要泥寡"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "雨女无瓜"
+      },
+      {
+        "intent": "unknown_intent",
+        "text": "无聊"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}
