@@ -167,7 +167,7 @@ termcolor==1.1.0
 terminaltables==3.1.0
 tqdm==4.31.1
 twilio==6.25.2
-twisted==18.9.0
+twisted==19.7.0
 typing==3.6.6
 typing-extensions==3.7.4
 tzlocal==1.5.1
