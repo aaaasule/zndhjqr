@@ -126,7 +126,7 @@ python-engineio==3.8.2.post1
 python-socketio==2.1.2
 python-telegram-bot==10.1.0
 pytz==2018.9
-pywin32==224
+pywin32==301
 PyYAML==3.13
 pyzmq==18.0.2
 query-string==2018.11.20
