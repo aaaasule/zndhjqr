@@ -59,7 +59,7 @@ javascripthon==0.10
 jieba==0.39
 Jinja2==2.10
 jmespath==0.9.4
-joblib==0.13.2
+joblib==1.2.0
 JPype1==0.6.3
 JsonForm==0.0.2
 jsonpickle==0.9.6
